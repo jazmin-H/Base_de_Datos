@@ -32,6 +32,6 @@ order by ciudades DESC
 --punto 7--
 SELECT min(rental_date), max(rental_date)--selleccionamos el minimo y maximo de rental_date
 from rental --desde rental
-where return_date is NOT NULL--donde el retorno de los alquileres no aparesca bacio
+where return_date is NOT NULL--donde el retorno de los alquileres no aparesca vacio
 --punto 8--
 me falta  
